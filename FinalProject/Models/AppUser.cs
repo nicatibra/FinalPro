@@ -8,6 +8,7 @@
         public Address Address { get; set; }
 
         public List<BasketItem> BasketItems { get; set; }
+        public List<WishlistItem> WishlistItems { get; set; }
 
     }
 }

@@ -198,29 +198,30 @@ namespace FinalProject.Controllers
         }
 
 
+
         [HttpPost]
         public async Task<IActionResult> Checkout(OrderVM orderVM, string? stripeEmail, string? stripeToken)
         {
             AppUser user = await _userManager.GetUserAsync(User);
 
             List<BasketItem> basketItems = await _context.BasketItems
-            .Where(bi => bi.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier))
-            .Include(bi => bi.Product).ThenInclude(p => p.ProductImages)
-            .Include(bi => bi.Product).ThenInclude(p => p.ProductBatches)
-            .ToListAsync();
+                .Where(bi => bi.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier))
+                .Include(bi => bi.Product).ThenInclude(p => p.ProductImages)
+                .Include(bi => bi.Product).ThenInclude(p => p.ProductBatches)
+                .ToListAsync();
 
             if (!ModelState.IsValid)
             {
                 orderVM.BasketInOrderItemsVMs = basketItems
                     .Select(bi => new BasketInOrderItemVM
                     {
-                        Image = bi.Product.ProductImages.FirstOrDefault(pi => pi.IsPrimary == true).Image,
+                        Image = bi.Product.ProductImages.FirstOrDefault(pi => pi.IsPrimary == true)?.Image,
                         Quantity = bi.Quantity,
                         Name = bi.Product.Name,
                         Price = bi.Product.DiscountPrice,
                         Subtotal = bi.Product.DiscountPrice * bi.Quantity
                     })
-                .ToList();
+                    .ToList();
 
                 return View(orderVM);
             }
@@ -239,6 +240,7 @@ namespace FinalProject.Controllers
                 {
                     ModelState.AddModelError(string.Empty,
                         $"Insufficient stock for product {product.Name}. You ordered {basketItem.Quantity}, but only {batches?.Sum(b => b.Stock) ?? 0} available.");
+
                     orderVM.BasketInOrderItemsVMs = basketItems
                         .Select(bi => new BasketInOrderItemVM
                         {
@@ -261,6 +263,9 @@ namespace FinalProject.Controllers
                     batch.Stock -= deduct;
                     requiredQty -= deduct;
                 }
+
+                // Update SalesCount for the product
+                product.SalesCount += basketItem.Quantity;
             }
 
             decimal total = basketItems.Sum(bi => bi.Product.DiscountPrice * bi.Quantity);
@@ -274,7 +279,7 @@ namespace FinalProject.Controllers
                 PostOrZipCode = orderVM.PostOrZipCode,
                 AdditionalInfo = orderVM.AdditionalInfo,
 
-                Email = orderVM.Email != null ? orderVM.Email : user.Email,
+                Email = orderVM.Email ?? user.Email,
                 FirstName = orderVM.FirstName,
                 LastName = orderVM.LastName,
                 AppUserId = User.FindFirstValue(ClaimTypes.NameIdentifier),
@@ -291,12 +296,10 @@ namespace FinalProject.Controllers
                     Count = bi.Quantity,
                     Price = bi.Product.DiscountPrice,
                     ProductId = bi.ProductId,
-
                 }).ToList(),
 
                 TotalPrice = total
             };
-
 
             ////Stripe
             //var optionCust = new CustomerCreateOptions
@@ -328,12 +331,12 @@ namespace FinalProject.Controllers
             //    return View();
             //}
 
-
             await _context.Orders.AddAsync(order);
             _context.BasketItems.RemoveRange(basketItems);
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Index", "Home");
         }
+
     }
 }

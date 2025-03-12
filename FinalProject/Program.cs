@@ -32,10 +32,11 @@ builder.Services.AddTransient<IMailService, MailService>();
 
 builder.Services.AddScoped<ILayoutService, LayoutService>();
 builder.Services.AddScoped<IBasketService, BasketService>();
+builder.Services.AddScoped<IWishlistService, WishlistService>();
+
 
 //AI service
 builder.Services.AddScoped<GeminiService>();
-
 
 builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
@@ -49,7 +50,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
+//app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 
 StripeConfiguration.ApiKey = builder.Configuration["Stripe:Secretkey"];
 

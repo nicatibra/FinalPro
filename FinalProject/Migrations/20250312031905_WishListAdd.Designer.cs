@@ -4,6 +4,7 @@ using FinalProject.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FinalProject.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250312031905_WishListAdd")]
+    partial class WishListAdd
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -431,9 +434,6 @@ namespace FinalProject.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<int>("SalesCount")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
@@ -666,18 +666,21 @@ namespace FinalProject.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("AddedDate")
+                        .HasColumnType("datetime2");
 
-                    b.Property<string>("UserId")
+                    b.Property<string>("AppUserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId");
+                    b.HasIndex("AppUserId");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("ProductId");
 
                     b.ToTable("WishlistItems");
                 });
@@ -992,21 +995,21 @@ namespace FinalProject.Migrations
 
             modelBuilder.Entity("FinalProject.Models.WishlistItem", b =>
                 {
+                    b.HasOne("FinalProject.Models.AppUser", "AppUser")
+                        .WithMany("WishlistItems")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("FinalProject.Models.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("FinalProject.Models.AppUser", "User")
-                        .WithMany("WishlistItems")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("AppUser");
 
                     b.Navigation("Product");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

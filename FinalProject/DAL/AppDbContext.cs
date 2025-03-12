@@ -28,6 +28,8 @@ namespace FinalProject.DAL
         public DbSet<LayoutSetting> LayoutSettings { get; set; }
 
         public DbSet<BasketItem> BasketItems { get; set; }
+        public DbSet<WishlistItem> WishlistItems { get; set; }
+
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Order> Orders { get; set; }
 

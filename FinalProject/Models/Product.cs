@@ -13,6 +13,8 @@
         public string? Weight { get; set; }
         public string? Volume { get; set; }
 
+        public int SalesCount { get; set; }
+
 
         public ICollection<ProductBatch> ProductBatches { get; set; }
 

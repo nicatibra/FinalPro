@@ -1,12 +1,36 @@
-﻿<!-- Views/Gemini/Index.cshtml -->
-@model string
+﻿@{
+    ViewData["Title"] = "Suggest Products";
+}
 
-<div class="container mt-5">
-    <h2>Find Ingredients for Your Meal</h2>
-    <form asp-action="SuggestProducts" method="post">
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" name="mealName" placeholder="Enter meal name...">
-            <button class="btn btn-primary" type="submit">Search</button>
-        </div>
-    </form>
-</div>
+<h2>Suggest Products</h2>
+
+<form method="post" asp-action="SuggestProducts">
+    <div class="form-group">
+        <label for="mealName">Enter a Meal Name:</label>
+        <input type="text" class="form-control" id="mealName" name="mealName" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Suggest Products</button>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <h3>Suggested Products</h3>
+    <ul>
+        @foreach (var product in Model)
+        {
+            <li>
+                <h4>@product.Name</h4>
+                <div>
+                    @foreach (var image in product.ProductImages)
+                    {
+                        <img src="@image.ImageUrl" alt="@product.Name" class="img-thumbnail" />
+                    }
+                </div>
+            </li>
+        }
+    </ul>
+}
+else if (Model != null && !Model.Any())
+{
+    <p>No products found matching the ingredients for this meal.</p>
+}

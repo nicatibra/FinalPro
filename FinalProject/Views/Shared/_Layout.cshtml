@@ -188,7 +188,7 @@
                                 {
                                     <li><a asp-controller="account" asp-action="Login">My Account</a></li>
                                 }
-                                <li><a href="shop-wishlist.html">Wishlist</a></li>
+                                <li><a asp-controller="wishlist" asp-action="index">Wishlist</a></li>
                                 @* <li><a href="shop-order.html">Order Tracking</a></li> *@
                             </ul>
                         </div>
@@ -264,20 +264,20 @@
                         <div class="header-action-right">
                             <div class="header-action-2">
 
-                                <div class="header-action-icon-2">
+                                @* <div class="header-action-icon-2">
                                     <a href="shop-compare.html">
                                         <img class="svgInject" alt="Nest" src="~/assets/imgs/theme/icons/icon-compare.svg" />
                                         <span class="pro-count blue">3</span>
                                     </a>
                                     <a href="shop-compare.html"><span class="lable ml-0">Compare</span></a>
-                                </div>
+                                </div> *@
 
                                 <div class="header-action-icon-2">
-                                    <a href="shop-wishlist.html">
+                                    <a asp-controller="wishlist" asp-action="index">
                                         <img class="svgInject" alt="Nest" src="~/assets/imgs/theme/icons/icon-heart.svg" />
                                         <span class="pro-count blue">6</span>
                                     </a>
-                                    <a href="shop-wishlist.html"><span class="lable">Wishlist</span></a>
+                                    <a asp-controller="wishlist" asp-action="index"><span class="lable">Wishlist</span></a>
                                 </div>
 
                                 <div class="header-action-icon-2">
@@ -358,18 +358,22 @@
                                                     </li>
                                                 }
 
-                                                <li>
+                                                @* <li>
                                                     <a href="page-account.html"><i class="fi fi-rs-location-alt mr-10"></i>Order Tracking</a>
                                                 </li>
+
                                                 <li>
                                                     <a href="page-account.html"><i class="fi fi-rs-label mr-10"></i>My Voucher</a>
-                                                </li>
+                                                </li> *@
+
                                                 <li>
-                                                    <a href="shop-wishlist.html"><i class="fi fi-rs-heart mr-10"></i>My Wishlist</a>
+                                                    <a asp-controller="wishlist" asp-action="index"><i class="fi fi-rs-heart mr-10"></i>My Wishlist</a>
                                                 </li>
-                                                <li>
+
+                                                @* <li>
                                                     <a href="page-account.html"><i class="fi fi-rs-settings-sliders mr-10"></i>Setting</a>
-                                                </li>
+                                                </li> *@
+
                                                 <li>
                                                     <a asp-controller="account" asp-action="logout"><i class="fi fi-rs-sign-out mr-10"></i>Sign out</a>
                                                 </li>
@@ -584,7 +588,7 @@
                     <div class="header-action-right d-block d-lg-none">
                         <div class="header-action-2">
                             <div class="header-action-icon-2">
-                                <a href="shop-wishlist.html">
+                                <a asasp-controller="home" asp-action="wishlist">
                                     <img alt="Nest" src="~/assets/imgs/theme/icons/icon-heart.svg" />
                                     <span class="pro-count white">4</span>
                                 </a>
@@ -894,12 +898,12 @@
                         <h4 class=" widget-title">Company</h4>
                         <ul class="footer-list mb-sm-5 mb-md-0">
                             <li><a href="#">About Us</a></li>
-                            <li><a href="#">Delivery Information</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms &amp; Conditions</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Support Center</a></li>
-                            <li><a href="#">Careers</a></li>
+                            @* <li><a href="#">Delivery Information</a></li> *@
+                            <li><a asp-controller="account" asp-action="privacypolicy" >Privacy Policy</a></li>
+                            <li><a asp-controller="account" asp-action="termsofservice">Terms &amp; Conditions</a></li>
+                            <li><a asp-controller="home" asp-action="contact">Contact Us</a></li>
+                            @* <li><a href="#">Support Center</a></li> *@
+                            @* <li><a href="#">Careers</a></li> *@
                         </ul>
                     </div>
                     <div class="footer-link-widget col wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
@@ -908,13 +912,13 @@
                             <li><a href="#">Sign In</a></li>
                             <li><a href="#">View Cart</a></li>
                             <li><a href="#">My Wishlist</a></li>
-                            <li><a href="#">Track My Order</a></li>
+@*                             <li><a href="#">Track My Order</a></li>
                             <li><a href="#">Help Ticket</a></li>
                             <li><a href="#">Shipping Details</a></li>
-                            <li><a href="#">Compare products</a></li>
+                            <li><a href="#">Compare products</a></li> *@
                         </ul>
                     </div>
-                    <div class="footer-link-widget col wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                    @* <div class="footer-link-widget col wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
                         <h4 class="widget-title">Corporate</h4>
                         <ul class="footer-list mb-sm-5 mb-md-0">
                             <li><a href="#">Become a Vendor</a></li>
@@ -925,8 +929,8 @@
                             <li><a href="#">Accessibility</a></li>
                             <li><a href="#">Promotions</a></li>
                         </ul>
-                    </div>
-                    <div class="footer-link-widget col wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
+                    </div> *@
+@*                     <div class="footer-link-widget col wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
                         <h4 class="widget-title">Popular</h4>
                         <ul class="footer-list mb-sm-5 mb-md-0">
                             <li><a href="#">Milk & Flavoured Milk</a></li>
@@ -938,7 +942,7 @@
                             <li><a href="#">Cheese</a></li>
                         </ul>
                     </div>
-                    <div class="footer-link-widget widget-install-app col wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+ *@                    <div class="footer-link-widget widget-install-app col wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
                         <h4 class="widget-title">Install App</h4>
                         <p class="">From App Store or Google Play</p>
                         <div class="download-app">
