@@ -1,34 +1,34 @@
-﻿<!-- Views/Gemini/SuggestProducts.cshtml -->
-@model List<Product>
+﻿@{
+    ViewData["Title"] = "Suggest Products";
+}
 
-<div class="container mt-4">
-    <h3>Suggested Ingredients:</h3>
-    @if (Model.Any())
-    {
-        <div class="row">
-            @foreach (var product in Model)
-            {
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        @if (product.ProductImages.Any())
-                        {
-                            <img src="@product.ProductImages.First().Image" class="card-img-top" alt="@product.Name">
-                        }
-                        <div class="card-body">
-                            <h5 class="card-title">@product.Name</h5>
-                            <p class="card-text">@product.Description</p>
-                            <form asp-controller="Basket" asp-action="AddBasket" method="post">
-                                <input type="hidden" name="id" value="@product.Id" />
-                                <button type="submit" class="btn btn-success">Add to Basket</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            }
-        </div>
-    }
-    else
-    {
-        <div class="alert alert-warning">No products found for this meal.</div>
-    }
-</div>
+<h2>Suggest Products</h2>
+
+<!-- Form to submit the meal name -->
+<form method="post" asp-action="SuggestProducts">
+    <div class="form-group">
+        <label for="mealName">Enter a Meal Name:</label>
+        <input type="text" class="form-control" id="mealName" name="mealName" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Suggest Products</button>
+</form>
+
+<!-- Display the products if they are found -->
+@if (ViewBag.Products != null && ((List<FinalProject.Models.Product>)ViewBag.Products).Any())
+{
+    <h3>Suggested Products:</h3>
+    <ul>
+        @foreach (var product in ViewBag.Products as List<FinalProject.Models.Product>)
+        {
+            <li>@product.Name</li> <!-- Display product names -->
+        }
+    </ul>
+}
+
+<!-- Handle error messages -->
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        <strong>Error:</strong> @ViewBag.Error
+    </div>
+}

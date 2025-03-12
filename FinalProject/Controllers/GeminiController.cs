@@ -1,14 +1,11 @@
 ﻿namespace FinalProject.Controllers
 {
-    // Controllers/GeminiController.cs
     public class GeminiController : Controller
     {
-        private readonly AppDbContext _context;
         private readonly GeminiService _geminiService;
 
-        public GeminiController(AppDbContext context, GeminiService geminiService)
+        public GeminiController(GeminiService geminiService)
         {
-            _context = context;
             _geminiService = geminiService;
         }
 
@@ -21,17 +18,21 @@
         public async Task<IActionResult> SuggestProducts(string mealName)
         {
             if (string.IsNullOrEmpty(mealName))
+            {
                 return BadRequest("Meal name is required");
+            }
 
-            var ingredients = await _geminiService.GetMealIngredientsAsync(mealName);
+            // Call the service to get products based on the ingredients
+            var products = await _geminiService.GetProductsFromIngredientsAsync(mealName);
 
-            var products = await _context.Products
-                .Where(p => (p.Name != null && ingredients.Any(i => p.Name.Contains(i))))
-                .Include(p => p.ProductImages)
-                .ToListAsync();
+            if (products == null || !products.Any())
+            {
+                return View("Error", "No products found for the given ingredients.");
+            }
 
-
-            return View(products);
+            // Return the list of products to the view
+            ViewBag.Products = products;
+            return View();
         }
     }
 }

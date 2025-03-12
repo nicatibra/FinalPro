@@ -4,6 +4,7 @@
 
 <h2>Suggest Products</h2>
 
+<!-- Form to submit the meal name -->
 <form method="post" asp-action="SuggestProducts">
     <div class="form-group">
         <label for="mealName">Enter a Meal Name:</label>
@@ -12,25 +13,17 @@
     <button type="submit" class="btn btn-primary">Suggest Products</button>
 </form>
 
-@if (Model != null && Model.Any())
+<!-- Display the ingredients once the response is returned -->
+@if (ViewBag.Ingredients != null)
 {
-    <h3>Suggested Products</h3>
-    <ul>
-        @foreach (var product in Model)
-        {
-            <li>
-                <h4>@product.Name</h4>
-                <div>
-                    @foreach (var image in product.ProductImages)
-                    {
-                        <img src="@image.ImageUrl" alt="@product.Name" class="img-thumbnail" />
-                    }
-                </div>
-            </li>
-        }
-    </ul>
+    <h3>Suggested Ingredients for the Meal:</h3>
+    <p>@ViewBag.Ingredients</p>
 }
-else if (Model != null && !Model.Any())
+
+<!-- Handle error messages -->
+@if (ViewBag.Error != null)
 {
-    <p>No products found matching the ingredients for this meal.</p>
+    <div class="alert alert-danger">
+        <strong>Error:</strong> @ViewBag.Error
+    </div>
 }

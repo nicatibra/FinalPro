@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UE8JDc3fyGk=",
+  "dgSpecHash": "9h7/dEGKfS8=",
   "success": true,
   "projectFilePath": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\FinalProject.csproj",
   "expectedPackageFiles": [
@@ -146,6 +146,7 @@
     "C:\\Users\\nicha\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\nicha\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\nicha\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\nicha\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512",
     "C:\\Users\\nicha\\.nuget\\packages\\stripe.net\\47.4.0\\stripe.net.47.4.0.nupkg.sha512",
     "C:\\Users\\nicha\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\nicha\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
