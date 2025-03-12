@@ -1,0 +1,31 @@
+﻿@model UpdateTagVM
+
+<section class="content-main">
+    <div class="content-header">
+        <div>
+            <h2 class="content-title card-title">Update Tag</h2>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <form method="post" enctype="multipart/form-data">
+
+                        <!-- Name Input -->
+                        <div class="mb-4">
+                            <label asp-for="Name" class="form-label">Name</label>
+                            <input asp-for="Name" type="text" placeholder="Type here" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary" style="width: auto; padding-left: 20px; padding-right: 20px;">Update Tag</button>
+                        <button asp-action="index" class="btn btn-secondary" style="width: auto; padding-left: 20px; padding-right: 20px;">Cancel</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,92 @@
+﻿@model LoginVM
+
+<main class="main pages">
+    <div class="page-header breadcrumb-wrap">
+        <div class="container">
+            <div class="breadcrumb">
+                <a asp-controller="home" asp-action="index" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
+                <span></span> Pages <span></span> Login
+            </div>
+        </div>
+    </div>
+
+    <div class="page-content pt-150 pb-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-10 col-md-12 m-auto">
+                    <div class="row">
+                        <div class="col-lg-6 pr-30 d-none d-lg-block">
+                            <img class="border-radius-15" src="~/assets/imgs/page/login-1.png" alt="" />
+                        </div>
+                        <div class="col-lg-6 col-md-8">
+                            <div class="login_wrap widget-taber-content background-white">
+                                <div class="padding_eight_all bg-white">
+                                    <div class="heading_s1">
+                                        <h1 class="mb-5">Login</h1>
+                                        <p class="mb-30">Don't have an account? <a asp-controller="account" asp-action="register">Create here</a></p>
+                                    </div>
+                                    <form method="post">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                        <div class="form-group">
+                                            <label asp-for="UsernameOrEmail">Username or Email:</label>
+                                            <input asp-for="UsernameOrEmail" class="form-control" />
+                                            <span asp-validation-for="UsernameOrEmail" class="text-danger"></span>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label asp-for="Password">Password:</label>
+                                            <input asp-for="Password" type="password" class="form-control" />
+                                            <span asp-validation-for="Password" class="text-danger"></span>
+                                        </div>
+
+                                        <div class="login_footer form-group mb-50">
+                                            <div class="chek-form">
+                                                <div class="custome-checkbox">
+                                                    <input asp-for="RememberMe" class="form-check-input" type="checkbox" id="rememberMe" />
+                                                    <label class="form-check-label" for="rememberMe"><span>Remember me</span></label>
+                                                </div>
+                                            </div>
+                                            <a class="text-muted" asp-action="ForgotPassword">Forgot password?</a>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-heading btn-block hover-up" name="login">Log in</button>
+                                        </div>
+                                    </form>
+
+                                    @* <div class="divider-text-center">
+                                        <span>Or</span>
+                                    </div>
+
+                                    <div class="social-login">
+                                        <a href="#" class="social-login-btn facebook-login">
+                                            <span class="social-icon">
+                                                <img src="~/assets/imgs/theme/icons/logo-facebook.svg" alt="Facebook" />
+                                            </span>
+                                            <span class="social-text">Continue with Facebook</span>
+                                        </a>
+                                        <a href="#" class="social-login-btn google-login">
+                                            <span class="social-icon">
+                                                <img src="~/assets/imgs/theme/icons/logo-google.svg" alt="Google" />
+                                            </span>
+                                            <span class="social-text">Continue with Google</span>
+                                        </a>
+                                        <a href="#" class="social-login-btn apple-login">
+                                            <span class="social-icon">
+                                                <img src="~/assets/imgs/theme/icons/logo-apple.svg" alt="Apple" />
+                                            </span>
+                                            <span class="social-text">Continue with Apple</span>
+                                        </a>
+                                    </div> *@
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

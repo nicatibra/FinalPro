@@ -1,0 +1,1825 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FinalProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinalProject.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\css\\main.css",
+      "PackagePath": "staticwebassets\\admin\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\css\\main.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\main.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\css\\vendors\\bootstrap.css",
+      "PackagePath": "staticwebassets\\admin\\css\\vendors\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\css\\vendors\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\vendors\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\css\\vendors\\material-icon-round.css",
+      "PackagePath": "staticwebassets\\admin\\css\\vendors\\material-icon-round.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\css\\vendors\\normalize.css",
+      "PackagePath": "staticwebassets\\admin\\css\\vendors\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\css\\vendors\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\admin\\css\\vendors\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\css\\vendors\\select2.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\vendors\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-Outlined.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-Outlined.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-Outlined.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-Outlined.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-Outlined.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-Outlined.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-Round.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-Round.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-Round.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-Round.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-Round.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-Round.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-Sharp.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-Sharp.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-Sharp.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-Sharp.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-Sharp.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-Sharp.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-TwoTone.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-TwoTone.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-TwoTone.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-TwoTone.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons-TwoTone.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons-TwoTone.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\fonts\\material-icon\\MaterialIcons.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\material-icon\\MaterialIcons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-10.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-11.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-12.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-13.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-14.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-15.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-16.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-17.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-18.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-5.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-6.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-7.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-8.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand-9.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\brand.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\brand.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\brands\\vendor-2.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\brands\\vendor-2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\card-brands\\1.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\card-brands\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\card-brands\\2.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\card-brands\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\card-brands\\3.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\card-brands\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\card-brands\\4.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\card-brands\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\icons\\stars-active.svg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\icons\\stars-active.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\icons\\starts-disable.svg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\icons\\starts-disable.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\10.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\11.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\12-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\12-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\12-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\12-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\12.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\2.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\3.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\4.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\5.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\6.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\7.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\8.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\items\\9.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\items\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\misc\\map.jpg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\misc\\map.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\people\\avatar-1.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\people\\avatar-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\people\\avatar-2.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\people\\avatar-2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\people\\avatar-3.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\people\\avatar-3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\people\\avatar-4.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\people\\avatar-4.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\theme\\404.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\theme\\404.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\theme\\favicon.svg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\theme\\favicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\theme\\flag-cn.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\theme\\flag-cn.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\theme\\flag-fr.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\theme\\flag-fr.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\theme\\flag-jp.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\theme\\flag-jp.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\theme\\flag-us.png",
+      "PackagePath": "staticwebassets\\admin\\imgs\\theme\\flag-us.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\theme\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\theme\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\imgs\\theme\\upload.svg",
+      "PackagePath": "staticwebassets\\admin\\imgs\\theme\\upload.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\js\\custom-chart.js",
+      "PackagePath": "staticwebassets\\admin\\js\\custom-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\js\\vendors\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\vendors\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\js\\vendors\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\vendors\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\js\\vendors\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\js\\vendors\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\js\\vendors\\color-modes.js",
+      "PackagePath": "staticwebassets\\admin\\js\\vendors\\color-modes.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\js\\vendors\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\vendors\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\js\\vendors\\jquery.fullscreen.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\vendors\\jquery.fullscreen.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\js\\vendors\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\js\\vendors\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\js\\vendors\\select2.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\vendors\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\abstracts\\_import-vendors.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\abstracts\\_import-vendors.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\abstracts\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\abstracts\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\abstracts\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\abstracts\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\abstracts\\_variables-old.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\abstracts\\_variables-old.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\abstracts\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\abstracts\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\base\\_helpers.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\base\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\base\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\components\\_elements.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\components\\_elements.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\components\\_items.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\components\\_items.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\components\\_navigation.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\components\\_navigation.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\layout\\_layout-dark.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\layout\\_layout-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\layout\\_layout.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\layout\\_layout.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\layout\\_responsive.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\layout\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\layout\\_spacing.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\layout\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\admin\\sass\\main.scss",
+      "PackagePath": "staticwebassets\\admin\\sass\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\main.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\plugins\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\plugins\\animate.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\plugins\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\plugins\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\plugins\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\plugins\\select2.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\plugins\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\plugins\\slider-range.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\slider-range.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\vendors\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendors\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\vendors\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\vendors\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\vendors\\normalize.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendors\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\css\\vendors\\uicons-regular-straight.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendors\\uicons-regular-straight.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\fonts\\uicons\\uicons-regular-straight.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\uicons\\uicons-regular-straight.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\fonts\\uicons\\uicons-regular-straight.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\uicons\\uicons-regular-straight.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\fonts\\uicons\\uicons-regular-straight.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\uicons\\uicons-regular-straight.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-10.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-10.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-11.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-11.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-12.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-12.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-13.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-13.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-14.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-14.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-15.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-15.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-16.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-16.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-17.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-17.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-18.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-18.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-19.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-19.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-2.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-3.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-4.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-4.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-5.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-5.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-6.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-6.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-7.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-7.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-8.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-8.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-9.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-9.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\banner-menu.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\banner-menu.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\fillter-widget-bg.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\fillter-widget-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\banner\\popup-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner\\popup-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\author-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\author-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\author-2.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\author-2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\author-3.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\author-3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\author-4.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\author-4.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-10.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-10.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-11.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-11.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-12.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-12.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-13.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-13.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-14.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-14.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-15.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-15.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-16.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-16.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-17.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-17.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-18.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-18.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-19.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-19.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-2.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-20.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-20.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-21.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-21.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-3.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-4.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-4.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-5.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-5.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-6.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-6.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-7.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-7.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-8.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-8.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\blog-9.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\blog-9.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\blog\\header-bg.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\blog\\header-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\invoice\\banner.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\invoice\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\invoice\\header-bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\invoice\\header-bg-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\invoice\\header-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\invoice\\header-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\about-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\about-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\about-2.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\about-2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\about-3.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\about-3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\about-4.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\about-4.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\about-5.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\about-5.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\about-6.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\about-6.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\about-8.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\about-8.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\about-9.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\about-9.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\bg-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\contact-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\contact-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\contact-2.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\contact-2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\forgot_password.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\forgot_password.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\guide-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\guide-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\home-6-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\home-6-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\login-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\login-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\page-404.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\page-404.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\page\\reset_password.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\page\\reset_password.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\brands\\8c07b4c3-f667-4164-8d57-2a3445e88130.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\brands\\8c07b4c3-f667-4164-8d57-2a3445e88130.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\brands\\ColaLogo.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\brands\\ColaLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\brands\\ac8bbb97-7070-47d5-9612-eda35356725b.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\brands\\ac8bbb97-7070-47d5-9612-eda35356725b.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\categories\\274c563b-b6ee-42cc-aa3d-a3a1896ad85a.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\categories\\274c563b-b6ee-42cc-aa3d-a3a1896ad85a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\categories\\6b4d1025-b3fd-42a0-831d-a6091a98d88b.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\categories\\6b4d1025-b3fd-42a0-831d-a6091a98d88b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\categories\\71d86529-348a-4f20-9dcc-b8dc42279ebc.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\categories\\71d86529-348a-4f20-9dcc-b8dc42279ebc.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\categories\\8085118f-6fbd-4e58-a38b-fb7472a34cac.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\categories\\8085118f-6fbd-4e58-a38b-fb7472a34cac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\categories\\874fb969-3c25-4863-8ab6-1cb46b087923.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\categories\\874fb969-3c25-4863-8ab6-1cb46b087923.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\categories\\999f2ef7-bf6a-452c-a99e-fe7b38a7ea99.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\categories\\999f2ef7-bf6a-452c-a99e-fe7b38a7ea99.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\categories\\ad12074b-65b5-42d5-9789-bbf640b28a1b.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\categories\\ad12074b-65b5-42d5-9789-bbf640b28a1b.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\categories\\b21e7da7-37bd-45dc-b000-296e4679f898.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\categories\\b21e7da7-37bd-45dc-b000-296e4679f898.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\categories\\categoryDrinks.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\categories\\categoryDrinks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\categories\\edcae13a-fb1b-441d-9ffb-5f5b62839c83.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\categories\\edcae13a-fb1b-441d-9ffb-5f5b62839c83.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\categories\\f8945d66-f537-4356-a3f2-39f562faa111.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\categories\\f8945d66-f537-4356-a3f2-39f562faa111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\108cff08-f976-4017-8ae3-f11a70c4e592.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\108cff08-f976-4017-8ae3-f11a70c4e592.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\28387874-a887-41d5-bbce-cdb9f2b617f9.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\28387874-a887-41d5-bbce-cdb9f2b617f9.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\2da0086c-6ac2-4fbc-8989-7e05e877d1a9.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\2da0086c-6ac2-4fbc-8989-7e05e877d1a9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\2f849636-54af-44e9-9f38-872ec273b143.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\2f849636-54af-44e9-9f38-872ec273b143.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\66cceaf1-01df-48b2-bb6f-eb6a283684e9.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\66cceaf1-01df-48b2-bb6f-eb6a283684e9.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\7307c240-b045-461a-86c9-71690a7a6704.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\7307c240-b045-461a-86c9-71690a7a6704.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\815cc7ca-6d41-4163-aae1-306e7682253a.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\815cc7ca-6d41-4163-aae1-306e7682253a.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\8535b894-fd55-4de1-8b92-ba38be4259f0.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\8535b894-fd55-4de1-8b92-ba38be4259f0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\927e2e3c-7722-4033-b752-0a47c6cad225.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\927e2e3c-7722-4033-b752-0a47c6cad225.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\c1e8aff5-bcf5-4077-9b75-8fc4675992f5.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\c1e8aff5-bcf5-4077-9b75-8fc4675992f5.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\e4f84e1f-e30a-4fc3-8c7a-599d4281bb25.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\e4f84e1f-e30a-4fc3-8c7a-599d4281bb25.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\colors\\fefe3e2a-ad98-44c1-b3a2-21f130bf943f.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\colors\\fefe3e2a-ad98-44c1-b3a2-21f130bf943f.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\00dee931-ec18-4b59-b663-55ba4eee46ec.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\00dee931-ec18-4b59-b663-55ba4eee46ec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\045c17fd-cf88-4b1c-87a9-ed29b9ba8e6f.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\045c17fd-cf88-4b1c-87a9-ed29b9ba8e6f.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\0fe4cce8-adb4-451b-81c9-2908e4f15ac3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\0fe4cce8-adb4-451b-81c9-2908e4f15ac3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\194c2cbc-ff3e-466b-86fa-f69e85c2e27e.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\194c2cbc-ff3e-466b-86fa-f69e85c2e27e.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\2388336c-37cd-4ff2-8329-51ed0da8e0de.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\2388336c-37cd-4ff2-8329-51ed0da8e0de.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\243c36bb-75d0-40ab-b89b-bb66da01e3fd.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\243c36bb-75d0-40ab-b89b-bb66da01e3fd.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\246d3406-8ffa-4b06-af60-35d7ab147259.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\246d3406-8ffa-4b06-af60-35d7ab147259.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\2de394b3-8565-41db-b6c9-5a15db17698d.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\2de394b3-8565-41db-b6c9-5a15db17698d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\3b795747-0fb5-4f40-a815-00db92aa42d6.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\3b795747-0fb5-4f40-a815-00db92aa42d6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\59afca1a-d98f-42e7-97c8-6bd6cc71ee02.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\59afca1a-d98f-42e7-97c8-6bd6cc71ee02.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\5dcf460c-ea71-478a-8ef2-74e550e5e42a.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\5dcf460c-ea71-478a-8ef2-74e550e5e42a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\60c9ad46-92e9-4cbe-ad48-91e7eba5d693.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\60c9ad46-92e9-4cbe-ad48-91e7eba5d693.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\6293b1c4-5d38-435a-a6a7-3d55ac87f67d.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\6293b1c4-5d38-435a-a6a7-3d55ac87f67d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\665b7b37-6104-494d-91e2-db57b883b8ec.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\665b7b37-6104-494d-91e2-db57b883b8ec.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\6bf650f5-7112-4549-a0cc-6612c63e05c9.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\6bf650f5-7112-4549-a0cc-6612c63e05c9.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\6e65342c-ddee-49b9-a28d-713d9ec7c21b.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\6e65342c-ddee-49b9-a28d-713d9ec7c21b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\7a81a7c2-a722-4475-b4a7-21831c79e777.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\7a81a7c2-a722-4475-b4a7-21831c79e777.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\8867183c-9838-43ee-959e-c392acc57989.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\8867183c-9838-43ee-959e-c392acc57989.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\90e63e42-3dd2-4244-97ce-e68c9a532653.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\90e63e42-3dd2-4244-97ce-e68c9a532653.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\a046a3f4-9b10-4529-af63-e5915972c6c6.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\a046a3f4-9b10-4529-af63-e5915972c6c6.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\a413ef0b-c6fe-4681-9099-780b4fbae72e.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\a413ef0b-c6fe-4681-9099-780b4fbae72e.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\a85f1574-62db-4c5d-a5f8-ea3c564b77c3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\a85f1574-62db-4c5d-a5f8-ea3c564b77c3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\ba6e8b6f-60a0-440b-922f-ce4a0022f476.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\ba6e8b6f-60a0-440b-922f-ce4a0022f476.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\da3fc144-faf9-441e-8d13-76796c76dcdd.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\da3fc144-faf9-441e-8d13-76796c76dcdd.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\dfa35a64-cdbe-4675-839d-fa995ef1e29d.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\dfa35a64-cdbe-4675-839d-fa995ef1e29d.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\ee6ef560-f2e3-4a6f-bf05-6889e94478c3.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\ee6ef560-f2e3-4a6f-bf05-6889e94478c3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\additional\\fd05b7dc-b4ab-44ba-9643-8e5e3dcb21b3.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\additional\\fd05b7dc-b4ab-44ba-9643-8e5e3dcb21b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\1ec97eef-9ec3-416e-9154-259eeecdcf97.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\1ec97eef-9ec3-416e-9154-259eeecdcf97.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\25c19766-989a-4dc5-9fe3-d2bf87982114.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\25c19766-989a-4dc5-9fe3-d2bf87982114.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\39fc40c0-dcac-4fb2-a69e-93db6fb96538.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\39fc40c0-dcac-4fb2-a69e-93db6fb96538.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\49af764d-301c-4889-9d3c-46d28ded850b.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\49af764d-301c-4889-9d3c-46d28ded850b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\5a56b379-74f7-44ef-800d-76003d80de0f.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\5a56b379-74f7-44ef-800d-76003d80de0f.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\5b7443a1-aafe-4d91-98fb-76a6c5b378e2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\5b7443a1-aafe-4d91-98fb-76a6c5b378e2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\9235c2af-17a4-414b-82a8-f1ce98e62341.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\9235c2af-17a4-414b-82a8-f1ce98e62341.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\a3a09cab-d55a-465a-ae30-bb4653d6df70.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\a3a09cab-d55a-465a-ae30-bb4653d6df70.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\c0d829f7-59b7-4aa7-b857-b0b16631f500.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\c0d829f7-59b7-4aa7-b857-b0b16631f500.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\c317ed13-2e4b-4a26-8386-fe54b94a4076.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\c317ed13-2e4b-4a26-8386-fe54b94a4076.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\c449c4ba-337e-479e-a1e8-1961cffaeb94.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\c449c4ba-337e-479e-a1e8-1961cffaeb94.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\cb538706-786e-436e-ba7e-7dd7aaa5eccd.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\cb538706-786e-436e-ba7e-7dd7aaa5eccd.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\d39ab329-8649-4100-8f92-0f30b7107ad5.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\d39ab329-8649-4100-8f92-0f30b7107ad5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\d56f917c-6fbc-4b41-ab64-a5e854aef825.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\d56f917c-6fbc-4b41-ab64-a5e854aef825.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\d600b048-c381-4142-9ef0-b9d4aa28ca77.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\d600b048-c381-4142-9ef0-b9d4aa28ca77.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\primary\\d83bbc32-53ac-4612-abc9-6e6948853bdd.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\primary\\d83bbc32-53ac-4612-abc9-6e6948853bdd.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\138511f6-48ca-4ca7-aa92-cb11e385c494.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\138511f6-48ca-4ca7-aa92-cb11e385c494.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\1c7991ba-e5d1-43a0-bbba-91a2b694f3ef.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\1c7991ba-e5d1-43a0-bbba-91a2b694f3ef.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\2748ea2d-350f-4850-b577-cebeebce873c.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\2748ea2d-350f-4850-b577-cebeebce873c.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\39dee500-21ce-4e62-9a6d-0d2ca0a99a98.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\39dee500-21ce-4e62-9a6d-0d2ca0a99a98.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\45ed0aa0-06c2-4083-b03c-5022833dae69.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\45ed0aa0-06c2-4083-b03c-5022833dae69.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\5aaadc45-cb0d-4c11-b842-a1553f54c85a.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\5aaadc45-cb0d-4c11-b842-a1553f54c85a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\6c6aec9d-6e3b-43f4-b797-4f9e97e43a59.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\6c6aec9d-6e3b-43f4-b797-4f9e97e43a59.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\7c149dae-c399-4531-9acd-0e1884d05ff4.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\7c149dae-c399-4531-9acd-0e1884d05ff4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\855940d2-b2aa-4417-827e-82032ce2243b.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\855940d2-b2aa-4417-827e-82032ce2243b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\8ee6e7dd-45ef-4c7b-8387-5573dd921f1a.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\8ee6e7dd-45ef-4c7b-8387-5573dd921f1a.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\9f6c1477-73dc-410f-9cd6-6a293407efef.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\9f6c1477-73dc-410f-9cd6-6a293407efef.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\a3f7bd9d-70c6-48f5-94ab-c36fa4da1ede.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\a3f7bd9d-70c6-48f5-94ab-c36fa4da1ede.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\b8f664d9-e258-490a-a61a-debf23dc4289.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\b8f664d9-e258-490a-a61a-debf23dc4289.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\c99bab4a-7917-42be-94cb-245a4d6b8c56.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\c99bab4a-7917-42be-94cb-245a4d6b8c56.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\dfcd8d54-e9dc-4a88-84e7-c2dd48de9682.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\dfcd8d54-e9dc-4a88-84e7-c2dd48de9682.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\shop\\products\\secondary\\e98a5564-5ce6-4bfa-b4dc-0a5ac8a4ca04.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\products\\secondary\\e98a5564-5ce6-4bfa-b4dc-0a5ac8a4ca04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\0ba5abd8-d44b-46e8-80f4-0d0fca5506cd.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\0ba5abd8-d44b-46e8-80f4-0d0fca5506cd.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\1678950f-269d-484e-9682-cf99e44c671f.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\1678950f-269d-484e-9682-cf99e44c671f.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\305fc41e-c879-4f34-b9ac-da5614e7360e.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\305fc41e-c879-4f34-b9ac-da5614e7360e.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\55556866-4983-4b43-a664-692e3f015fee.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\55556866-4983-4b43-a664-692e3f015fee.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\581a70cd-a792-4948-a908-953d101317a4.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\581a70cd-a792-4948-a908-953d101317a4.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\67b31834-d683-4057-964f-bea2cc7a5cde.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\67b31834-d683-4057-964f-bea2cc7a5cde.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\6b531e57-25b6-4e2b-8e99-69d013077889.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\6b531e57-25b6-4e2b-8e99-69d013077889.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\9d96e058-34a5-4ad8-803c-8900c4f58a9e.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\9d96e058-34a5-4ad8-803c-8900c4f58a9e.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\ae2d152f-073c-4f4f-b135-d0b44ff1d869.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\ae2d152f-073c-4f4f-b135-d0b44ff1d869.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\slider-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\slider-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\slider-2.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\slider-2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\slider-3.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\slider-3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\slider-4.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\slider-4.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\slider-5.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\slider-5.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\slider-6.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\slider-6.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\slider-7.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\slider-7.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\slider\\slider-8.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\slider\\slider-8.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\app-store.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\app-store.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\favicon.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\favicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\flag-dt.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\flag-dt.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\flag-fr.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\flag-fr.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\flag-ru.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\flag-ru.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\google-play.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\google-play.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\category-1.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\category-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\category-10.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\category-10.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\category-11.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\category-11.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\category-2.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\category-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\category-3.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\category-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\category-4.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\category-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\category-5.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\category-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\category-6.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\category-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\category-7.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\category-7.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\category-8.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\category-8.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\category-9.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\category-9.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\coupon.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\coupon.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-1.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-2.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-3.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-4.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-5.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-6.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-bookmark.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-bookmark.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-cart.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-cart.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-clock.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-clock.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-compare.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-compare.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-contact.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-contact.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-download.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-download.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-dribbble.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-dribbble.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-email-2.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-email-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-email.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-email.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-facebook-brand.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-facebook-brand.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-facebook-white.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-facebook-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-headphone-white.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-headphone-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-headphone.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-headphone.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-heart-2.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-heart-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-heart.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-heart.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-hot-white.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-hot-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-hot.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-hot.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-instagram-brand.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-instagram-brand.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-instagram-white.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-instagram-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-instagram.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-invoice.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-invoice.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-location.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-location.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-pinterest-brand.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-pinterest-brand.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-pinterest-white.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-pinterest-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-pinterest.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-pinterest.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-plane.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-plane.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-print.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-print.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-search.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-search.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-twitter-brand.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-twitter-brand.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-twitter-white.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-twitter-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-twitter.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-user.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-user.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-youtube-brand.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-youtube-brand.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-youtube-white.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-youtube-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\icon-youtube.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\icon-youtube.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\logo-apple.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\logo-apple.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\logo-facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\logo-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\logo-google.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\logo-google.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\payment-master.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\payment-master.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\payment-paypal.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\payment-paypal.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\payment-visa.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\payment-visa.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\payment-zapper.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\payment-zapper.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\phone-call.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\phone-call.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\search.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\social-fb.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\social-fb.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\social-insta.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\social-insta.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\social-pin.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\social-pin.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\icons\\social-tw.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\icons\\social-tw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\logo-2.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\logo-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\logo-light.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\logo-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\payment-method.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\payment-method.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\rating-stars.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\rating-stars.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\theme\\wave.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\theme\\wave.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-1.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-10.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-10.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-11.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-11.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-12.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-12.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-13.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-13.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-14.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-14.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-15.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-15.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-16.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-16.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-17.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-17.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-18.svg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-18.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-2.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-3.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-4.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-4.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-5.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-5.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-6.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-6.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-7.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-7.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-8.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-8.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-9.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-9.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\imgs\\vendor\\vendor-header-bg.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\vendor\\vendor-header-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\form-validation.js",
+      "PackagePath": "staticwebassets\\assets\\js\\form-validation.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\invoice\\html2canvas.js",
+      "PackagePath": "staticwebassets\\assets\\js\\invoice\\html2canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\invoice\\invoice.js",
+      "PackagePath": "staticwebassets\\assets\\js\\invoice\\invoice.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\invoice\\jspdf.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\invoice\\jspdf.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\TweenMax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\TweenMax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\counterup.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\counterup.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\custom-parallax.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\custom-parallax.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\images-loaded.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\images-loaded.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\isotope.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\jquery.elevatezoom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.elevatezoom.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\jquery.syotimer.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.syotimer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\jquery.theia.sticky.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.theia.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\jquery.vticker-min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.vticker-min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\leaflet.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\leaflet.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\magnific-popup.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\scrollup.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\scrollup.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\slick.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\slider-range.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\slider-range.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\waypoints.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\waypoints.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\plugins\\wow.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\shop.js",
+      "PackagePath": "staticwebassets\\assets\\js\\shop.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\vendor\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\vendor\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\vendor\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\vendor\\jquery-migrate-3.3.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-migrate-3.3.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\js\\vendor\\modernizr-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\abstracts\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\abstracts\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\abstracts\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\abstracts\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\abstracts\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\abstracts\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\base\\_animation.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\base\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\base\\_common.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\base\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\base\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\components\\_banners.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_banners.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\components\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\components\\_form.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_form.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\components\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\components\\_slider.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_slider.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\components\\_tabs.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_tabs.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\layout\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\layout\\_navigation.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_navigation.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\layout\\_responsive.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\layout\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\layout\\_spacing.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\main.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\pages\\_blog.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\pages\\_invoice.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\_invoice.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\pages\\_page.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\_page.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\pages\\_print.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\pages\\_shop.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\_shop.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\pages\\_vendors.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\_vendors.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\themes\\_default.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\themes\\_default.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\FinalProject - Copy\\FinalProject\\wwwroot\\assets\\sass\\vendors\\_vendors-import.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\vendors\\_vendors-import.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinalProject.props",
+      "PackagePath": "build\\FinalProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalProject.props",
+      "PackagePath": "buildMultiTargeting\\FinalProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinalProject.props",
+      "PackagePath": "buildTransitive\\FinalProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

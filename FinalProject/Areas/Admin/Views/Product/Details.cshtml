@@ -1,0 +1,322 @@
+﻿@model ProductDetailsVM
+
+<div class="container-fluid px-4 py-5">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Dashboard</a></li>
+            <li class="breadcrumb-item"><a asp-controller="Product" asp-action="Index">Products</a></li>
+            <li class="breadcrumb-item active">@Model.Name</li>
+        </ol>
+    </nav>
+
+
+    <div class="row">
+        <div class="col-12 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <!-- Header -->
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h1 class="h3 mb-0">@Model.Name</h1>
+                        <div class="btn-group">
+                            <a asp-action="update" asp-route-id="@Model.Id" class="btn btn-primary">Edit Product</a>
+                            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                @if (!Model.IsDeleted)
+                                {
+                                    <li><a class="dropdown-item text-warning" asp-action="Archive" asp-route-id="@Model.Id">Archive Product</a></li>
+                                }
+                                else
+                                {
+                                    <li><a class="dropdown-item text-success" asp-action="Restore" asp-route-id="@Model.Id">Restore Product</a></li>
+                                }
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-danger" asp-action="Delete" asp-route-id="@Model.Id">Delete Product</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Main Content -->
+                    <div class="row">
+                        <!-- Image Gallery -->
+                        <div class="col-md-6 mb-4">
+                            <div class="position-relative mb-3 image-hover-container">
+                                @if (!string.IsNullOrEmpty(Model.Image))
+                                {
+                                    <img id="mainImage" src="~/assets/imgs/shop/products/primary/@Model.Image"
+                                         class="img-fluid rounded main-product-image"
+                                         alt="@Model.Name" />
+
+                                    @if (!string.IsNullOrEmpty(Model.SecondaryImage))
+                                    {
+                                        <img id="secondaryImage" src="~/assets/imgs/shop/products/secondary/@Model.SecondaryImage"
+                                             class="img-fluid rounded secondary-product-image"
+                                             alt="@Model.Name - Secondary" />
+                                    }
+                                }
+                                else
+                                {
+                                    <div class="no-image-placeholder rounded d-flex align-items-center justify-content-center bg-light" style="height: 400px;">
+                                        <span class="text-muted">No primary image</span>
+                                    </div>
+                                }
+                                @if (Model.IsDeleted)
+                                {
+                                    <div class="position-absolute top-0 end-0 m-3">
+                                        <span class="badge bg-danger">Archived</span>
+                                    </div>
+                                }
+                            </div>
+
+                            @if (Model.AdditionalImages?.Any() == true)
+                            {
+                                <div class="additional-images-scroller">
+                                    @foreach (var image in Model.AdditionalImages)
+                                    {
+                                        <div class="additional-image">
+                                            <img src="~/assets/imgs/shop/products/additional/@image" class="img-thumbnail" alt="Additional view" />
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        </div>
+
+                        <!-- Product Information -->
+                        <div class="col-md-6">
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle mb-2 text-muted">Price Information</h6>
+                                            <h4 class="mb-2">Price: $@Model.Price</h4>
+                                            @if (Model.DiscountPrice != 0)
+                                            {
+                                                <div class="text-danger">
+                                                    <h5 class="mb-1">Discount Price: $@Model.DiscountPrice</h5>
+                                                    <span class="badge bg-danger">-@Model.DiscountPercentage%</span>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle mb-2 text-muted">Stock Status</h6>
+                                            <h4 class="@(Model.InStock > 0 ? "text-success" : "text-danger")">
+                                                In Stock: @Model.InStock units
+                                            </h4>
+                                            <small class="text-muted">SKU: @Model.SKU</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle mb-2 text-muted">Category & Brand</h6>
+                                            <p class="mb-1"><strong>Category:</strong> @(Model.CategoryName ?? "N/A")</p>
+                                            <p class="mb-0"><strong>Brand:</strong> @(Model.BrandName ?? "N/A")</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tabs -->
+                    <div class="mt-4">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="tab" href="#details">Details</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#specifications">Specifications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#inventory">Inventory</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content p-4 border border-top-0">
+                            <div class="tab-pane fade show active" id="details">
+                                <h5 class="mb-3">Product Description</h5>
+                                <p>@Model.Description</p>
+
+                                @if (!string.IsNullOrEmpty(Model.Ingredients))
+                                {
+                                    <h5 class="mb-3 mt-4">Ingredients</h5>
+                                    <p>@Model.Ingredients</p>
+                                }
+
+                                @if (Model.Tags?.Any() == true)
+                                {
+                                    <h5 class="mb-3 mt-4">Tags</h5>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        @foreach (var tag in Model.Tags)
+                                        {
+                                            <span class="badge bg-secondary">@tag</span>
+                                        }
+                                    </div>
+                                }
+                            </div>
+
+                            <div class="tab-pane fade" id="specifications">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                            @if (Model.Weight is not null)
+                                            {
+                                                <tr>
+                                                    <th style="width: 200px">Weight</th>
+                                                    <td>@Model.Weight g</td>
+                                                </tr>
+                                            }
+                                            @if (Model.Volume is not null)
+                                            {
+                                                <tr>
+                                                    <th>Volume</th>
+                                                    <td>@Model.Volume l</td>
+                                                </tr>
+                                            }
+                                            @if (Model.Colors?.Any() == true)
+                                            {
+                                                <tr>
+                                                    <th>Available Colors</th>
+                                                    <td>
+                                                        @string.Join(", ", Model.Colors)
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="inventory">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                            <tr>
+                                                <th style="width: 200px">Manufacturing Date</th>
+                                                <td>@(Model.ManufacturingDate?.ToShortDateString() ?? "N/A")</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Expiration Date</th>
+                                                <td>@(Model.ExpirationDate?.ToShortDateString() ?? "N/A")</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Current Stock</th>
+                                                <td>@Model.InStock units</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <a asp-controller="product" asp-action="index" class="btn btn-primary">Product List Page</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Styles -->
+<style>
+    .image-hover-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f8f9fa;
+        height: 400px;
+    }
+
+    .main-product-image,
+    .secondary-product-image {
+        max-width: 100%;
+        max-height: 400px;
+        object-fit: contain;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .main-product-image {
+        position: relative;
+        z-index: 2;
+    }
+
+    .secondary-product-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        z-index: 1;
+    }
+
+    .image-hover-container:hover .secondary-product-image {
+        opacity: 1;
+    }
+
+    .image-hover-container:hover .main-product-image {
+        opacity: 0;
+    }
+
+    .additional-images-scroller {
+        display: flex;
+        gap: 0.75rem;
+        overflow-x: auto;
+        padding: 0.5rem 0;
+    }
+
+    .additional-image {
+        flex: 0 0 100px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+
+        .additional-image:hover {
+            transform: translateY(-3px);
+        }
+
+        .additional-image img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 0.35rem;
+            border: 1px solid #dee2e6;
+        }
+
+</style>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const mainImage = document.getElementById("mainImage")
+        const secondaryImage = document.getElementById("secondaryImage")
+        const additionalImages = document.querySelectorAll(".additional-image img")
+
+        additionalImages.forEach((img) => {
+            img.addEventListener("click", function () {
+                const newMainSrc = this.src
+                const currentMainSrc = mainImage.src
+
+                // Update main image
+                mainImage.src = newMainSrc
+
+                // Update secondary image if it exists
+                if (secondaryImage) {
+                    secondaryImage.src = currentMainSrc
+                }
+            })
+        })
+    })
+
+</script>

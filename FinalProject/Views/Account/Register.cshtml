@@ -1,0 +1,272 @@
+﻿@model RegisterVM
+
+<main class="main pages">
+    <!-- Navbar -->
+    <div class="page-header breadcrumb-wrap">
+        <div class="container">
+            <div class="breadcrumb">
+                <a asp-controller="home" asp-action="index" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
+                <span></span> Pages <span></span> Create Account
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration Form -->
+    <div class="page-content pt-150 pb-150">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-10 col-md-12">
+                    <div class="card auth-card shadow-lg">
+                        <div class="card-body p-md-5">
+                            <div class="text-center mb-5">
+                                <h1 class="h2 text-primary mb-2">Create Your Account</h1>
+                                <p class="text-muted">Join our community today</p>
+                            </div>
+
+                            <form method="post" class="needs-validation" novalidate>
+                                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                                <!-- Personal Information Section -->
+                                <section class="mb-4">
+                                    <h3 class="h5 mb-3">Personal Information</h3>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input asp-for="Name" class="form-control" placeholder="First name" required />
+                                                <label asp-for="Name">First Name</label>
+                                                <span asp-validation-for="Name" class="text-danger small"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input asp-for="Surname" class="form-control" placeholder="Last name" required />
+                                                <label asp-for="Surname">Last Name</label>
+                                                <span asp-validation-for="Surname" class="text-danger small"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Account Credentials Section -->
+                                <section class="mb-4">
+                                    <h3 class="h5 mb-3">Account Credentials</h3>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input asp-for="Username" class="form-control" placeholder="Username" required />
+                                                <label asp-for="Username">Username</label>
+                                                <span asp-validation-for="Username" class="text-danger small"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input asp-for="Email" type="email" class="form-control" placeholder="Email" required />
+                                                <label asp-for="Email">Email Address</label>
+                                                <span asp-validation-for="Email" class="text-danger small"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating position-relative">
+                                                <input asp-for="Password" type="password" class="form-control" placeholder="Password" required />
+                                                <label asp-for="Password">Password</label>
+                                                <button type="button" class="btn btn-link position-absolute end-0 top-50 translate-middle-y pe-3 password-toggle" style="transform: translateY(-50%);">
+                                                    <i class="fi-rs-eye"></i>
+                                                </button>
+                                                <span asp-validation-for="Password" class="text-danger small"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating position-relative">
+                                                <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Confirm Password" required />
+                                                <label asp-for="ConfirmPassword">Confirm Password</label>
+                                                <button type="button" class="btn btn-link position-absolute end-0 top-50 translate-middle-y pe-3 password-toggle" style="transform: translateY(-50%);">
+                                                    <i class="fi-rs-eye"></i>
+                                                </button>
+                                                <span asp-validation-for="ConfirmPassword" class="text-danger small"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Preferences Section -->
+                                <section class="mb-4">
+                                    <h3 class="h5 mb-3">Preferences</h3>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="card border-0 bg-light">
+                                                <div class="card-body">
+                                                    <label class="form-label">Gender</label>
+                                                    <div class="btn-group-vertical w-100" role="group">
+                                                        @foreach (var gender in Enum.GetValues(typeof(EGender)))
+                                                        {
+                                                            <input type="radio" class="btn-check" asp-for="Gender" value="@gender" id="gender@(gender)" />
+                                                            <label class="btn btn-outline-secondary text-start" for="gender@(gender)">
+                                                                @gender
+                                                            </label>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card border-0 bg-light">
+                                                <div class="card-body">
+                                                    <label class="form-label">Account Type</label>
+                                                    <div class="vstack gap-2">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" asp-for="UserRole" value="@EUserRole.Customer" id="roleCustomer" required />
+                                                            <label class="form-check-label" for="roleCustomer">
+                                                                Customer
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" asp-for="UserRole" value="@EUserRole.Vendor" id="roleVendor" required />
+                                                            <label class="form-check-label" for="roleVendor">
+                                                                Vendor
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <br />
+
+                                    <h3 class="h5 mb-3">Address Information</h3>
+                                    <div class="row g-3">
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input asp-for="Street" class="form-control" placeholder="Street Address" required />
+                                                <label asp-for="Street">Street Address</label>
+                                                <span asp-validation-for="Street" class="text-danger small"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input asp-for="City" class="form-control" placeholder="City" required />
+                                                <label asp-for="City">City</label>
+                                                <span asp-validation-for="City" class="text-danger small"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input asp-for="State" class="form-control" placeholder="State/Province" />
+                                                <label asp-for="State">State/Province(Optional)</label>
+                                                <span asp-validation-for="State" class="text-danger small"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input asp-for="PostalCode" class="form-control" placeholder="Postal Code" required />
+                                                <label asp-for="PostalCode">Postal Code</label>
+                                                <span asp-validation-for="PostalCode" class="text-danger small"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <div class="dropdown">
+                                                    <button class="form-control text-start dropdown-toggle" type="button" id="countryDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        -- Select Country --
+                                                    </button>
+                                                    <ul class="dropdown-menu w-100" aria-labelledby="countryDropdown">
+                                                        <li>
+                                                            <input type="text" class="form-control" id="countrySearch" placeholder="Search countries...">
+                                                        </li>
+                                                        @foreach (var country in Enum.GetValues(typeof(ECountry)))
+                                                        {
+                                                            <li><a class="dropdown-item" href="#" data-value="@country">@country</a></li>
+                                                        }
+                                                    </ul>
+                                                </div>
+                                                <input type="hidden" asp-for="Country" id="selectedCountry" required>
+                                                <span asp-validation-for="Country" class="text-danger small"></span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </section>
+
+                                <!-- Terms Agreement -->
+                                <div class="mb-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" asp-for="AgreeToTerms" id="agreeToTerms" required />
+                                        <label class="form-check-label" for="agreeToTerms">
+                                            I agree to the <a asp-action="TermsOfService" target="_blank" class="text-decoration-none">Terms of Service</a> and
+                                            <a asp-action="PrivacyPolicy" target="_blank" class="text-decoration-none">Privacy Policy</a>
+                                        </label>
+                                        <span asp-validation-for="AgreeToTerms" class="text-danger small d-block"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <button type="submit" class="btn btn-primary w-100 py-3" id="submitButton" disabled>
+                                    Create Account
+                                </button>
+
+                                <!-- Login Redirect -->
+                                <div class="text-center mt-4">
+                                    <p class="text-muted mb-0">
+                                        Already have an account?
+                                        <a asp-controller="account" asp-action="login" class="text-decoration-none">Sign in here</a>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    // Enable submit button when terms are checked
+    document.getElementById('agreeToTerms').addEventListener('change', function () {
+        document.getElementById('submitButton').disabled = !this.checked;
+    });
+
+    // Password visibility toggle
+    document.querySelectorAll('.password-toggle').forEach(button => {
+        button.addEventListener('click', function () {
+            const input = this.closest('.form-floating').querySelector('input');
+            const icon = this.querySelector('i');
+            const type = input.type === 'password' ? 'text' : 'password';
+            input.type = type;
+            icon.classList.toggle('fi-rs-eye');
+            icon.classList.toggle('fi-rs-eye-crossed');
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const dropdownToggle = document.getElementById('countryDropdown');
+        const dropdownMenu = dropdownToggle.nextElementSibling;
+        const searchInput = document.getElementById('countrySearch');
+        const countryItems = dropdownMenu.querySelectorAll('.dropdown-item');
+        const hiddenInput = document.getElementById('selectedCountry');
+
+        searchInput.addEventListener('input', function () {
+            const searchTerm = this.value.toLowerCase();
+            countryItems.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(searchTerm) ? '' : 'none';
+            });
+        });
+
+        countryItems.forEach(item => {
+            item.addEventListener('click', function (e) {
+                e.preventDefault();
+                dropdownToggle.textContent = this.textContent;
+                hiddenInput.value = this.dataset.value;
+                dropdownToggle.classList.add('text-dark');
+            });
+        });
+
+        // Clear search when dropdown is closed
+        dropdownToggle.addEventListener('hidden.bs.dropdown', function () {
+            searchInput.value = '';
+            countryItems.forEach(item => item.style.display = '');
+        });
+    });
+</script>

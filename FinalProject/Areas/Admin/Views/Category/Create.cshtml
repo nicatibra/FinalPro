@@ -1,0 +1,53 @@
+﻿@model CreateCategoryVM
+
+<section class="content-main">
+    <div class="content-header">
+        <div>
+            <h2 class="content-title card-title">Create Category</h2>
+            <p>Add a new category</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <form method="post" enctype="multipart/form-data">
+
+                        <!-- Image Upload -->
+                        <div class="mb-4">
+                            <label asp-for="Photo" class="form-label">Image</label>
+                            <input asp-for="Photo" class="form-control" accept="image/*" />
+                            <span asp-validation-for="Photo" class="text-danger"></span>
+                        </div>
+
+                        <!-- Name Input -->
+                        <div class="mb-4">
+                            <label asp-for="Name" class="form-label">Name</label>
+                            <input asp-for="Name" type="text" placeholder="Type here" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <!-- Order Input -->
+                        <div class="mb-4">
+                            <label asp-for="Order" class="form-label">Order</label>
+                            <input asp-for="Order" type="text" placeholder="Type here" class="form-control" />
+                            <span asp-validation-for="Order" class="text-danger"></span>
+                        </div>
+
+                        <!-- Description Input -->
+                        <div class="mb-4">
+                            <label asp-for="Description" class="form-label">Description</label>
+                            <textarea asp-for="Description" placeholder="Type here" class="form-control" rows="3"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary" style="width: auto; padding-left: 20px; padding-right: 20px;">Create Category</button>
+                        <button asp-action="index" class="btn btn-secondary" style="width: auto; padding-left: 20px; padding-right: 20px;">Cancel</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

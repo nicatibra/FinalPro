@@ -1,0 +1,144 @@
+﻿@model PaginatedVM<GetCategoryVM>
+@{
+    int count = (Model.CurrentPage - 1) * 5;
+}
+
+<section class="content-main">
+    <div class="content-header d-flex justify-content-between align-items-center flex-wrap">
+        <div>
+            <h2 class="content-title card-title">Categories</h2>
+            <p class="mb-0">Add, edit or delete a category</p>
+        </div>
+        <div class="d-flex gap-2 align-items-center">
+
+            <!-- Search Form -->
+            <form id="searchForm" asp-action="index" class="d-flex align-items-center">
+                <div class="input-group" style="max-width: 250px; position: relative;">
+                    <input id="searchInput" name="search" value="@Model.Search" type="text" placeholder="Search Categories" class="form-control bg-white" />
+                    <button type="button" id="clearSearch" class="btn btn-light d-none">
+                        <i class="material-icons">close</i>
+                    </button>
+                    <button type="submit" class="btn btn-light">
+                        <i class="material-icons md-search"></i>
+                    </button>
+                </div>
+            </form>
+
+            <!-- Create Button -->
+            <a asp-controller="category" asp-action="create" class="btn btn-success">Create</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="categoryTable" class="table-responsive">
+                        <table class="table table-hover table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>NO</th>
+                                    <th>Image</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Is Archived</th>
+                                    <th>Order</th>
+                                    <th>ID</th>
+                                    <th class="text-end">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.Items.Any())
+                                {
+                                    foreach (var item in Model.Items)
+                                    {
+                                        count++;
+                                        <tr>
+                                            <td>@count</td>
+                                            <td><img src="~/assets/imgs/shop/categories/@item.Image" class="panel-image" alt="Category Image" /></td>
+                                            <td><b>@item.Name</b></td>
+                                            <td>@item.Description</td>
+                                            <td>@(item.IsDeleted ? "Yes" : "No")</td>
+                                            <td>@item.Order</td>
+                                            <td>@item.Id</td>
+                                            <td class="text-end">
+                                                <div class="dropdown">
+                                                    <a href="#" data-bs-toggle="dropdown" class="btn btn-light rounded btn-sm font-sm">
+                                                        <i class="material-icons md-more_horiz"></i>
+                                                    </a>
+
+                                                    <div class="dropdown-menu dropdown-menu-end">
+                                                        <a class="dropdown-item" asp-route-id="@item.Id" asp-action="update">Edit info</a>
+                                                        @if (!item.IsDeleted)
+                                                        {
+                                                            <a class="dropdown-item" asp-route-id="@item.Id" asp-action="archive">Archive</a>
+                                                        }
+                                                        else
+                                                        {
+                                                            <a class="dropdown-item" asp-route-id="@item.Id" asp-action="archive">Restore</a>
+                                                        }
+                                                        <a class="dropdown-item text-danger" asp-route-id="@item.Id" asp-action="delete">Delete</a>
+                                                    </div>
+
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="8" class="text-center">
+                                            <h4>No categories found.</h4>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Centered Pagination -->
+    <div class="pagination-area mt-30 mb-50">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item @(Model.CurrentPage<=1 ? "disabled" : "")">
+                    <a class="page-link" asp-action="index" asp-route-page="@(Model.CurrentPage-1)">
+                        <i class="material-icons md-chevron_left"></i>
+                    </a>
+                </li>
+
+                @for (int i = 1; i <= Model.TotalPage; i++)
+                {
+                    <li class="page-item @(Model.CurrentPage == i ? "active-page" : "")">
+                        <a class="page-link" asp-action="index" asp-route-page="@i">@i</a>
+                    </li>
+                }
+
+                <li class="page-item @(Model.TotalPage==Model.CurrentPage ? "disabled" : "")">
+                    <a class="page-link" asp-action="index" asp-route-page="@(Model.CurrentPage+1)">
+                        <i class="material-icons md-chevron_right"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const searchInput = document.getElementById('searchInput');
+        const searchForm = document.getElementById('searchForm');
+        let timeoutId;
+
+        searchInput.addEventListener('input', function () {
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(function () {
+                searchForm.submit();
+            }, 900);
+        });
+    });
+</script>

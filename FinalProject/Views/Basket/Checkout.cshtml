@@ -1,0 +1,206 @@
+﻿@model OrderVM
+@using System.Globalization
+@using FinalProject.Utilities.Enums
+@using Microsoft.Extensions.Options
+
+@inject IOptions<StripeSettings> Stripe
+
+<main class="main">
+    <div class="page-header breadcrumb-wrap">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
+                <span></span> Shop
+                <span></span> Checkout
+            </div>
+        </div>
+    </div>
+    <div class="container mb-80 mt-50">
+        <div class="row">
+            <div class="col-lg-8 mb-40">
+                <h1 class="heading-2 mb-10">Checkout</h1>
+                <div class="d-flex justify-content-between">
+                    <h6 class="text-body">There are <span class="text-brand">@Model.BasketInOrderItemsVMs.Count</span> products in your cart</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="row">
+                    <h4 class="mb-30">Billing Details</h4>
+                    <form method="post" asp-antiforgery="true">
+                        @* onchange="this.form.submit()" *@
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <!-- First Name & Last Name -->
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <input asp-for="FirstName" class="form-control" placeholder="First name">
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <input asp-for="LastName" class="form-control" placeholder="Last name">
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Country & City -->
+                        <div class="row shipping_calculator">
+                            <div class="form-group col-lg-6">
+                                <div class="custom_select">
+                                    <select asp-for="Country"
+                                            asp-items="Html.GetEnumSelectList<ECountry>()"
+                                            class="form-control select-active">
+                                        <option value="">Select Country...</option>
+                                    </select>
+                                    <span asp-validation-for="Country" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <input asp-for="CityOrTown" class="form-control" placeholder="City / Town">
+                                <span asp-validation-for="CityOrTown" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Address & State -->
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <input asp-for="Address" class="form-control" placeholder="Address">
+                                <span asp-validation-for="Address" class="text-danger"></span>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <input asp-for="State" class="form-control" placeholder="State (optional)">
+                                <span asp-validation-for="State" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Postcode & Email -->
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <input asp-for="PostOrZipCode" class="form-control" placeholder="Postcode / ZIP">
+                                <span asp-validation-for="PostOrZipCode" class="text-danger"></span>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <input asp-for="Email" class="form-control" placeholder="Email address (optional)">
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Additional Info -->
+                        <div class="form-group mb-30">
+                            <textarea asp-for="AdditionalInfo" rows="5" placeholder="Additional information (optional)"></textarea>
+                            <span asp-validation-for="AdditionalInfo" class="text-danger"></span>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-fill-out btn-block mt-30">
+                            Place an Order<i class="fi-rs-sign-out ml-15"></i>
+                        </button>
+
+                        @* <script src="//checkout.stripe.com/v2/checkout.js"
+                                class="stripe-button"
+                                data-key="@Stripe.Value.Publishablekey"
+                                data-amount="@ViewBag.Total"
+                                data-name="[Deveducate]"
+                                data-locale="en"
+                                data-discription="Sample charge"
+                                data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                                data-zip-code="true">
+                        </script> *@
+
+                    </form>
+                </div>
+            </div>
+
+            <!-- Order Summary Section -->
+            <div class="col-lg-5">
+                <div class="border p-40 cart-totals ml-30 mb-50">
+                    <div class="d-flex align-items-end justify-content-between mb-30">
+                        <h4>Your Order</h4>
+                    </div>
+
+                    <div class="divider-2 mb-30"></div>
+
+                    <!-- Order Items Table -->
+                    <div class="table-responsive checkout">
+                        <table class="table" style="width: 100%;">
+                            <thead>
+                                <tr class="row" style="margin: 0 -15px;">
+                                    <th class="col-4 text-start">Product</th>
+                                    <th class="col-2 text-center">Quantity</th>
+                                    <th class="col-3 text-center">Price</th>
+                                    <th class="col-3 text-end">Subtotal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.BasketInOrderItemsVMs)
+                                {
+                                    <tr class="row" style="margin: 0 -15px; align-items: center;">
+                                        <td class="col-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="~/assets/imgs/shop/products/primary/@item.Image" alt="@item.Name" style="width: 60px; height: 60px; object-fit: cover; margin-right: 15px;">
+                                                <h6 class="mb-0">@item.Name</h6>
+                                            </div>
+                                        </td>
+                                        <td class="col-2 text-center">@item.Quantity</td>
+                                        <td class="col-3 text-center">@item.Price.ToString("C")</td>
+                                        <td class="col-3 text-end">@item.Subtotal.ToString("C")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="divider-2 mt-30 mb-30"></div>
+
+                    <!-- Order Total -->
+                    <div class="row justify-content-end">
+                        <div class="col-9">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="text-muted">Order Total:</h4>
+                                <h4 class="text-brand">@Model.BasketInOrderItemsVMs.Sum(i => i.Subtotal).ToString("C")</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <script>
+        // Initialize Select2 for country dropdown
+        $(document).ready(function () {
+            $('.select-active').select2({
+                placeholder: "Select Country",
+                allowClear: false,
+                width: '100%'
+            });
+        });
+    </script>
+
+<style>
+    .cart-totals {
+        min-width: 400px;
+    }
+
+    .table-responsive {
+        overflow-x: visible;
+    }
+
+    .table tbody tr {
+        border-bottom: 1px solid #dee2e6;
+        padding: 10px 0;
+    }
+
+    .table thead th {
+        border-bottom: 2px solid #dee2e6;
+        padding-bottom: 15px;
+    }
+
+    .table td, .table th {
+        padding: 15px;
+        vertical-align: middle;
+    }
+</style>

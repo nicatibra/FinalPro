@@ -1,0 +1,39 @@
+﻿@model CreateColorVM
+
+<section class="content-main">
+    <div class="content-header">
+        <div>
+            <h2 class="content-title card-title">Create Color</h2>
+            <p>Add a new color</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <form method="post" enctype="multipart/form-data">
+
+                        <!-- Image Upload -->
+                        <div class="mb-4">
+                            <label asp-for="Photo" class="form-label">Image</label>
+                            <input asp-for="Photo" class="form-control" accept="image/*" />
+                            <span asp-validation-for="Photo" class="text-danger"></span>
+                        </div>
+
+                        <!-- Name Input -->
+                        <div class="mb-4">
+                            <label asp-for="Name" class="form-label">Name</label>
+                            <input asp-for="Name" type="text" placeholder="Type here" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary" style="width: auto; padding-left: 20px; padding-right: 20px;">Create Color</button>
+                        <button asp-action="index" class="btn btn-secondary" style="width: auto; padding-left: 20px; padding-right: 20px;">Cancel</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

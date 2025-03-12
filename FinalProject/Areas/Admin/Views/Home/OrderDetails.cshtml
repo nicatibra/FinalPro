@@ -1,0 +1,153 @@
+﻿@model FinalProject.Models.Order
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Order Details</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <!-- Order Information -->
+                        <div class="col-md-6">
+                            <h5 class="mb-3">Order Information</h5>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <th>Order ID</th>
+                                            <td>#@Model.Id</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Billing Name</th>
+                                            <td>@Model.AppUser.Firstname @Model.AppUser.Lastname</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Order Date</th>
+                                            <td>@Model.DateString</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Total Price</th>
+                                            <td>$@Model.TotalPrice</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Status</th>
+                                            <td>
+                                                @switch (Model.Status)
+                                                {
+                                                    case null:
+                                                        <span class="badge bg-secondary">Not Confirmed</span>
+                                                        break;
+                                                    case false:
+                                                        <span class="badge bg-warning">In Delivery Process</span>
+                                                        break;
+                                                    case true:
+                                                        <span class="badge bg-success">Delivered</span>
+                                                        break;
+                                                }
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Shipping Information -->
+                        <div class="col-md-6">
+                            <h5 class="mb-3">Shipping Information</h5>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <th>Address</th>
+                                            <td>@Model.Address</td>
+                                        </tr>
+                                        <tr>
+                                            <th>City/Town</th>
+                                            <td>@Model.CityOrTown</td>
+                                        </tr>
+                                        <tr>
+                                            <th>State</th>
+                                            @if(@Model.State == null)
+                                            {
+                                                <td>No State</td>
+                                            }
+                                            <td>@Model.State</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Post/Zip Code</th>
+                                            <td>@Model.PostOrZipCode</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Country</th>
+                                            <td>@Model.Country</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Email</th>
+                                            <td>@Model.Email</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Additional Info</th>
+                                            @if (Model.AdditionalInfo == null)
+                                            {
+                                                <td>No Additional Info</td>
+                                            }
+                                            <td>@Model.AdditionalInfo</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Order Items -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <h5 class="mb-3">Order Items</h5>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <thead class="bg-light">
+                                        <tr>
+                                            <th>Product</th>
+                                            <th>Quantity</th>
+                                            <th>Price</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model.OrderItems)
+                                        {
+                                            <tr>
+                                                <td>@item.Product.Name</td>
+                                                <td>@item.Count</td>
+                                                <td>$@item.Price</td>
+                                                <td>$@(item.Count * item.Price)</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Back Button -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Back to List
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add FontAwesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />

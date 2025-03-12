@@ -1,0 +1,154 @@
+﻿@model ProductListVM
+
+<section class="content-main">
+    <div class="content-header">
+        <div>
+            <h2 class="content-title card-title">Products List</h2>
+        </div>
+        <div>
+            <a asp-action="create" class="btn btn-primary btn-sm rounded">Create new Product</a>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <header class="card-header">
+            <form method="get" asp-action="Index" class="row g-3">
+                <!-- Category Filter -->
+                <div class="col-lg-3 col-md-4 col-12">
+                    <select name="categoryId" onchange="this.form.submit()" class="form-select" id="categoryId">
+                        <option value="">All categories</option>
+                        @foreach (var category in Model.Categories)
+                        {
+                            <option value="@category.Id"
+                                    selected="@(category.Id == Model.SelectedCategoryId ? "selected" : null)">
+                                @category.Name
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <!-- Search Filter -->
+                <div class="col-lg-3 col-md-4 col-12">
+                    <input type="text" name="search" value="@Model.PaginatedProducts.Search" class="form-control" id="search" placeholder="Search..." />
+                </div>
+
+                <!-- Status Filter -->
+                <div class="col-lg-3 col-md-4 col-12">
+                    <select name="status" class="form-select" onchange="this.form.submit()" id="status">
+                        <option value="" selected="@(string.IsNullOrEmpty(Model.SelectedStatus) ? "selected" : null)">Show all</option>
+                        <option value="Active" selected="@(Model.SelectedStatus == "Active" ? "selected" : null)">Active</option>
+                        <option value="Disabled" selected="@(Model.SelectedStatus == "Disabled" ? "selected" : null)">Disabled</option>
+                    </select>
+                </div>
+
+                <!-- Apply Filters Button -->
+                <div class="col-lg-3 col-md-4 col-12 d-flex align-items-end">
+                    <button type="submit" class="btn btn-primary w-100"><p style="flex:auto">Apply Filters</p></button>
+                </div>
+            </form>
+        </header>
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Product Name</th>
+                            <th style="width: 10%;">Price</th>
+                            <th style="width: 10%;">Discount Price</th>
+                            <th style="width: 10%;">Category</th>
+                            <th style="width: 10%;">Brand</th>
+                            <th style="width: 10%;">In Stock</th>
+                            <th style="width: 10%;">ID</th>
+                            <th style="width: 10%;">Status</th>
+                            <th style="width: 15%;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in Model.PaginatedProducts.Items)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="itemside">
+                                        <div class="left me-3">
+                                            <img src="~/assets/imgs/shop/products/primary/@product.Image" class="img-sm img-thumbnail" alt="Item" />
+                                        </div>
+                                        <div class="info">
+                                            <h6 class="mb-0">@product.Name</h6>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>$@product.Price</td>
+                                <td>$@product.DiscountPrice</td>
+                                <td>@product.CategoryName</td>
+                                <td>@product.BrandName</td>
+                                <td>@product.InStock</td>
+                                <td>@product.Id</td>
+                                <td>
+                                    @if (product.IsDeleted)
+                                    {
+                                        <span class="badge bg-danger">Deleted</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-success">Active</span>
+                                    }
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="btn btn-light" type="button" id="dropdownMenuButton-@product.Id" data-bs-toggle="dropdown" aria-expanded="false">
+                                            ...
+                                        </button>
+
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton-@product.Id">
+                                            <a class="dropdown-item" asp-action="details" asp-route-id="@product.Id">Details</a>
+                                            <a class="dropdown-item" asp-action="update" asp-route-id="@product.Id">Edit info</a>
+                                            @if (!product.IsDeleted)
+                                            {
+                                                <a class="dropdown-item" asp-action="archive" asp-route-id="@product.Id">Archive</a>
+                                            }
+                                            else
+                                            {
+                                                <a class="dropdown-item" asp-action="archive" asp-route-id="@product.Id">Restore</a>
+                                            }
+                                            <a class="dropdown-item text-danger" asp-action="delete" asp-route-id="@product.Id">Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination-area mt-30 mb-50">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item @(Model.PaginatedProducts.CurrentPage <= 1 ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-page="@(Model.PaginatedProducts.CurrentPage - 1)"
+                       asp-route-categoryId="@Model.SelectedCategoryId" asp-route-search="@Model.PaginatedProducts.Search"
+                       asp-route-status="@Model.SelectedStatus">
+                        <i class="material-icons md-chevron_left"></i>
+                    </a>
+                </li>
+                @for (int i = 1; i <= Model.PaginatedProducts.TotalPage; i++)
+                {
+                    <li class="page-item @(Model.PaginatedProducts.CurrentPage == i ? "active-page" : "")">
+                        <a class="page-link" asp-action="Index" asp-route-page="@i" asp-route-categoryId="@Model.SelectedCategoryId"
+                           asp-route-search="@Model.PaginatedProducts.Search" asp-route-status="@Model.SelectedStatus">@i</a>
+                    </li>
+                }
+                <li class="page-item @(Model.PaginatedProducts.TotalPage == Model.PaginatedProducts.CurrentPage ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-page="@(Model.PaginatedProducts.CurrentPage + 1)"
+                       asp-route-categoryId="@Model.SelectedCategoryId" asp-route-search="@Model.PaginatedProducts.Search"
+                       asp-route-status="@Model.SelectedStatus">
+                        <i class="material-icons md-chevron_right"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</section>

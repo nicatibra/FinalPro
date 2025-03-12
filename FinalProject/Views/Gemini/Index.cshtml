@@ -1,0 +1,12 @@
+﻿<!-- Views/Gemini/Index.cshtml -->
+@model string
+
+<div class="container mt-5">
+    <h2>Find Ingredients for Your Meal</h2>
+    <form asp-action="SuggestProducts" method="post">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" name="mealName" placeholder="Enter meal name...">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+    </form>
+</div>
